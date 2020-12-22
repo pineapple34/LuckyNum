@@ -1,0 +1,15 @@
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\bin\Debug\LuckyNum.exe.config
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\bin\Debug\LuckyNum.exe
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\bin\Debug\LuckyNum.pdb
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\MainWindow.g.cs
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\App.g.cs
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum_MarkupCompile.cache
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum_MarkupCompile.lref
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\MainWindow.baml
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum.g.resources
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum.Properties.Resources.resources
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum.exe
+C:\Users\Asus\Desktop\практика\3\LuckyNum\LuckyNum\obj\Debug\LuckyNum.pdb

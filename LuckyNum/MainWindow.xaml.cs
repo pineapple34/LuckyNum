@@ -27,25 +27,41 @@ namespace LuckyNum
 
         private void BtnCheck_Click(object sender, RoutedEventArgs e)
         {
+            LblOut.Content = "";
             if (TBnum.Text.Length == 6)
             {
-                char[] chars = TBnum.Text.ToArray();
-                int[] nums = new int[6];
-
-                try
-                {
-                    for (int i = 0; i < 6; i++)
-                    {
-                        nums[i] = int.Parse(chars[i].ToString());
-                    }
-                    LblOut.Content = (chars[0] + chars[1] + chars[2] == chars[3] + chars[4] + chars[5]) ? "Число счастливое" : "Число не счастливое";
-                }
-                catch (Exception)
-                {
-                    LblOut.Content = "Неверное число";
-                }
+                Num num = new Num(TBnum.Text);
+                if (num.isParsed) LblOut.Content = num.isLucky() ? "Число счастливое" : "Число не счастливое";
             }
             else LblOut.Content = "Неверное число";
+        }
+    }
+    public class Num
+    {
+        public int[] nums = new int[6];
+        public bool isParsed;
+        public Num(string input)
+        {
+            char[] chars = input.ToArray();
+            try
+            {
+                for (int i = 0; i < 6; i++)
+                {
+                    nums[i] = int.Parse(chars[i].ToString());
+                }
+                isParsed = true;
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Неверные данные");
+                isParsed = false;
+            }
+        }
+
+        public bool isLucky()
+        {
+            if (nums[0] + nums[1] + nums[2] == nums[3] + nums[4] + nums[5]) return true;
+            else return false;
         }
     }
 }
