@@ -39,7 +39,7 @@ namespace LuckyNum
     public class Num
     {
         public int[] nums = new int[6];
-        public bool isParsed;
+        public bool isParsed { get; set; }
         public Num(string input)
         {
             char[] chars = input.ToArray();
